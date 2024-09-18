@@ -1,4 +1,6 @@
 import sys
+sys.setrecursionlimit(5000)
+
 
 def ddml(turn_number):
   turn_number = int(turn_number)
